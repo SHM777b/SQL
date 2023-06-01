@@ -1,6 +1,7 @@
 # SQL
 SQL scripts that I have written as part of Udemy course called "The Complete SQL Bootcamp: Go from Zero to Hero"
 The topics covered during this course are:
+
 SECTION 2:
   * SELECT
   * DISTINCT
