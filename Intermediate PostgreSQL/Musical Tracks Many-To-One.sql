@@ -27,6 +27,9 @@ Then write SQL commands to insert all of the distinct albums into the album tabl
 (creating their primary keys) and then set the album_id in the track_raw table
 */
 
+# Download the csv file using the wget command
+wget https://www.pg4e.com/tools/sql/library.csv?PHPSESSID=f5c34bcea1f2bb189822c02a07afc639%22
+
 # Copy data from csv file to track_raw table
 \copy track_raw(title, artist, album, count, rating, len) 
 FROM 'library.csv' WITH DELIMITER ',' CSV;
