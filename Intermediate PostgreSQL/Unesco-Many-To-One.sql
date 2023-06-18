@@ -1,3 +1,13 @@
+/*
+In this assignment you will read some Unesco Heritage Site data in comma-separated-values (CSV) 
+format and produce properly normalized tables as specified below.
+
+Normalize the data in the unesco_raw table by adding the entries to each of the lookup tables (category, etc.) and then adding the foreign key columns to the unesco_raw table. Then make a new table called unesco that removes all of the un-normalized redundant text columns like category.
+If you run the program multiple times in testing or with different files, make sure to empty out the data before each run.
+
+The autograder will look at the unesco table.
+*/
+
 # Download the csv file
 wget https://www.pg4e.com/tools/sql/whc-sites-2018-small.csv
 
